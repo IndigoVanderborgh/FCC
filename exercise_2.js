@@ -20,3 +20,5 @@
 
 // Hint
 // Look at the ourName example above if you get stuck.
+
+var myName;
