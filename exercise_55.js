@@ -13,8 +13,8 @@
 
 function nextInLine(arr, item) {
     // Only change code below this line
-    arr.push(item);
-    return arr.shift(); 
+    arr.push(item); // adds element (number) to end of array
+    return arr.shift(); // removes first element in array
     // Only change code above this line
 }
 
