@@ -24,8 +24,8 @@
 
 function myLocalScope() {
     // Only change code below this line
-
     console.log('inside myLocalScope', myVar);
+    const myVar = "Hello"
 }
 myLocalScope();
 
