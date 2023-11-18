@@ -1,35 +1,37 @@
 // JavaScript Algorithms and Data Structures
 // Basic JavaScript
 
-// Practice comparing different values
+// Comparison with the Greater Than Or Equal To Operator
 
-// In the last two challenges, we learned about the equality operator (==) and the strict equality operator (===). Let's do a quick review and practice using these operators some more.
+// The greater than or equal to operator (>=) compares the values of two numbers. If the number to the left is greater than or equal to the number to the right, it returns true. Otherwise, it returns false.
 
-// If the values being compared are not of the same type, the equality operator will perform a type conversion, and then evaluate the values. However, the strict equality operator will compare both the data type and value as-is, without converting one type to the other.
+// Like the equality operator, the greater than or equal to operator will convert data types while comparing.
 
 // Examples
 
-// 3 == '3' returns true because JavaScript performs type conversion from string to number. 3 === '3' returns false because the types are different and type conversion is not performed.
+// 6   >=  6  // true
+// 7   >= '3' // true
+// 2   >=  3  // false
+// '7' >=  9  // false
 
-// Note: In JavaScript, you can determine the type of a variable or a value with the typeof operator, as follows:
 
-// typeof 3
-// typeof '3'
-
-// typeof 3 returns the string number, and typeof '3' returns the string string.
 
 
 // ------------------------------------------ exercise ------------------------------------------------------------------------------------------------------------------------------
-// The compareEquality function in the editor compares two values using the equality operator. Modify the function so that it returns the string Equal only when the values are strictly equal.
-// Setup
-function compareEquality(a, b) {
-    // if (a === b) { // Change this line
-    if (a === b) { // Change this line
-        return "Equal";
+// Add the greater than or equal to operator to the indicated lines so that the return statements make sense.
+
+function testGreaterOrEqual(val) {
+    if (val) {  // Change this line
+        return "20 or Over";
     }
-    return "Not Equal";
+
+    if (val) {  // Change this line
+        return "10 or Over";
+    }
+
+    return "Less than 10";
 }
 
-compareEquality(10, "10");
+testGreaterOrEqual(10);
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
