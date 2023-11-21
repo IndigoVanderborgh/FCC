@@ -36,21 +36,17 @@
 
 function testSize(num) {
     // Only change code below this line
-    if () {
-        statement1
-    } else if () {
-        statement2
-    } else if () {
-        statement3
-    } else if () {
-        statement4
-    } else if () {
-        statement5
+    if (num < 5) {
+        return "Tiny";
+    } else if (num < 10 ) {
+        return "Small";
+    } else if (num < 15) {
+        return "Medium";
+    } else if (num < 20) {
+        return "Large";
     } else {
-        statement6
+        return "Huge";
     }
-
-    return "Change Me";
     // Only change code above this line
 }
 
