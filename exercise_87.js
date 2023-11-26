@@ -41,3 +41,7 @@ delete myDog.tails;
 
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+// Deleting a property from an object using pseudocode on line 40
+// delete myDog.tails;
+// delete                               myDog.tails;
+// ^delete
