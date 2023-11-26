@@ -34,3 +34,6 @@ const testObj = {
 
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+// Line 32 states a constant "playerNumber" which is 16.
+// line 33 states a new constant "player" that is equal to testObj[playerNumber]; which [playerNumber] is 16 stated in line 32
+// It is also accessing the property 16, which is "Montana" so in the end const player would equal "Montana"
