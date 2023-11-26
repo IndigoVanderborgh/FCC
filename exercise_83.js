@@ -35,3 +35,7 @@ const testObj = {
   var drinkValue = testObj['the drink'];    // Change this line
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+// basic psuedocode for dot notation using line 34:
+// var entreeValue = testObj["an entree"];
+// var                          entreeValue        = testObj                          ["an entree"];
+// ^ variable declaration       ^new variable name = ^const testObj with properties   ^property of object
