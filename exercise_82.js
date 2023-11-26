@@ -30,3 +30,11 @@ const testObj = {
   const shirtValue = testObj.shirt;    // Change this line
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+
+// basic psuedocode for dot notation using line 29:
+// const shirtValue = testObj.shirt;
+
+// const                       shirtValue              = testObj . shirt;
+// ^declaring variable/const   ^new variable name      = ^object . ^object property
+
+// now the const hatValue will read out "jersey" when call on or console logged
