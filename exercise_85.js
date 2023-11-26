@@ -30,3 +30,7 @@ const myDog = {
 myDog.name = "Happy Coder";
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+// Pseudocode for updating object properties using dot notation
+// myDog.name = "Happy Coder";
+// myDog               . name                                           = "Happy Coder";
+// ^line 22 const name . ^object property within myDog which is "Coder" = ^The new updated string for property "name" in object myDog.
