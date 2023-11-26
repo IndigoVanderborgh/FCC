@@ -34,3 +34,9 @@ const myDog = {
 
 myDog['bark'] = "woof!"
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+// Adding a property to an object using bracket notation
+// From line 28, the object myDog is given with 4 properties
+// To add a new property using pseudocode:
+// myDog['bark'] = "woof!"
+// myDog           ['bark']      = "woof!"
+// ^object "myDog" ^new property = ^new property value
