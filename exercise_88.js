@@ -78,3 +78,42 @@ function phoneticLookup(val) {
   // Change this value to test
   console.log(phoneticLookup("foxtrot"));
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+
+// We can take the chunk here and change it from this.
+//       Only change code below this line
+//     switch(val) {
+//       case "alpha":
+//         result = "Adams";
+//         break;
+//       case "bravo":
+//         result = "Boston";
+//         break;
+//       case "charlie":
+//         result = "Chicago";
+//         break;
+//       case "delta":
+//         result = "Denver";
+//         break;
+//       case "echo":
+//         result = "Easy";
+//         break;
+//       case "foxtrot":
+//         result = "Frank";
+//     }
+
+// to this:
+
+//     // Only change code above this line
+
+// var lookup = {
+//   "alpha": "Adams",
+//   "bravo": "Boston",
+//   "charlie": "Chicago",
+//   "delta": "Denver",
+//   "echo": "Easy",
+//   "foxtrot": "frank"
+// };
+// result = lookup[val];
+
+// where we take the each case and result to a single object "lookup". And in the end, we need to make result equal to lookup[val]
+// and return result.
