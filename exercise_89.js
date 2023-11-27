@@ -30,3 +30,14 @@ function checkObj(obj, checkProp) {
     }
 }
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+
+// We have two parameters in the function "checkObj". On line 26, we used:
+// obj.hasOwnProperty(checkProp)
+// obj          . hasOwnProperty         (checkProp)
+// ^parameter 1 . ^method hasOwnProperty ^parameter 2
+//  and in line 27, we have obj[checkProp]:
+// obj[checkProp]
+// obj            [checkProp]
+// ^parameter 1   ^parameter 2
+
+// This is a more abstract challenge for using hasOwnProperty, since there isn't an actual object.
