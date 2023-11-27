@@ -116,4 +116,4 @@ function phoneticLookup(val) {
 // result = lookup[val];
 
 // where we take the each case and result to a single object "lookup". And in the end, we need to make result equal to lookup[val]
-// and return result.
+// and return result
