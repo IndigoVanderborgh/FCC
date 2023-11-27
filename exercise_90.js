@@ -64,3 +64,5 @@ var myMusic = [
     }
 ];
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+
+// This one is straight forward, we added a new entry using basically the same album from line 46 to 54
