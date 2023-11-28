@@ -61,3 +61,5 @@ const gloveBoxContents = myStorage.car.inside["glove box"];
 //   const gloveBoxContents = undefined;
 // and to access we use dot notation.
 // myStorage.car.inside["glove box"];
+// we use the brackets at the end because there is a space and its easier that way. if there were more spaces in the property, we can use brackets to solve it ie:
+// myTextOptions["character names"]["kid"];
