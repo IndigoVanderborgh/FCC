@@ -38,7 +38,7 @@ const myStorage = {
     }
 };
 
-const gloveBoxContents = undefined;
+const gloveBoxContents = myStorage.car.inside["glove box"];
 // const myStorage = {
 //     "car": {
 //       "inside": {
@@ -55,3 +55,9 @@ const gloveBoxContents = undefined;
 
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+
+// Since we are accessing the object, and the goal is to assign the contents of the glove box to the new variable on line 41, all we have to do is change the undefined
+// to access the glove box in myStorage. So think of this as a box within a box within a box. Take the original line:
+//   const gloveBoxContents = undefined;
+// and to access we use dot notation.
+// myStorage.car.inside["glove box"];
