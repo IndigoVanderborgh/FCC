@@ -35,3 +35,8 @@ console.log(myArray)
 // }
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+
+// Here we change it up from the previous exercise by introducing a different final expression. Instead of incrementing by one, we are increment by two.
+// But by changing the starting initial value from 0 to 1, we are starting on an odd number, and will jump to 3 for the next loop, and so on until the conditional expression is met, which is 10.
+// Since we started at 1, the loop will run 1-9, as the condition is i is less than 10. It will stop at 9 because 11 is higher than 10. 
+// Within the loop, it is simply pushing each i iteration once to the array myArray. 
