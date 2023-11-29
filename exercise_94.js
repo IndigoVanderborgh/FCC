@@ -36,3 +36,14 @@ while(i < 5) {
 
 console.log(myArray);
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+// var i = 0;
+// while(i < 5) {
+//     myArray.push(i);
+//     i++;
+// }
+// Explaining the solution:
+// We are using a while loop, but we need to start with an initial value (stated on line 31)
+// Then on line 33, we are pushing i to the first element in the array myArray, which was set up as an empty array on line 28, making myArray now have an element, [0]
+// once 0 is pushed to the array, i++ increments i by one. so now i is 1, and we've reached the end of the while loop, but the condition on line 32 states that while i is less than 5, then continue with the 
+// following. So the while loop continues incrementing until it reaches 5, resulting in myArray to be [0, 1, 2, 3, 4]
+// consoling out the array confirms the answer.
