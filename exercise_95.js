@@ -42,3 +42,18 @@ for (var i = 1; i < 6; i++) {
 console.log(myArray);
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+// Unlike the other exercise, we are usign a for loop. For loops are a different kind of loop to while in format but function as similar as they are designed in the same vein.
+// its up to the user to choose the application of whether for or while loop would make your life much easier.
+// Lets look at the exercise above and explain the process.
+// for (var i = 1; i < 6; i++) {
+//     myArray.push(i);
+// }
+
+// The basic format of a for loop is below. 
+// for(var i = 1; i < 6; i++)
+// for(var/let a; b; c)
+
+// a = initialization statement ie i = 1 or i = 0 which is executed only one time before the loops starts
+// b = condition statement, which is evaulated in the beginning of the every loop iteration and will continue as long as it evaluates to true. When the condition is false, at the start of the iteration, the loop
+// will stop executing. This means if the condition starts as false, the loop will never execute.
+// c = Final expression, which is executed at the end of the each of loop iteration, prior to the next condition check and is usually used to increment/decrement your loop counter. 
