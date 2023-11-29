@@ -50,8 +50,8 @@ console.log(myArray);
 // }
 
 // The basic format of a for loop is below. 
-// for(var i = 1; i < 6; i++)
-// for(var/let a; b; c)
+// for (var i = 1; i < 6; i++)
+// for (var/let a; b; c)
 
 // a = initialization statement ie i = 1 or i = 0 which is executed only one time before the loops starts
 // b = condition statement, which is evaulated in the beginning of the every loop iteration and will continue as long as it evaluates to true. When the condition is false, at the start of the iteration, the loop
