@@ -31,3 +31,6 @@ for (let i = 9; i > 0; i -= 2) {
 // Only change code below this line
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+// Similar to the previous exercise, however the goal here is to decrement values starting from 9 and ending at 1, and to push it to the array.
+// Line 25 is a reverse version of the previous exercise. We started with an initialization statement of i = 9, and our condition statement is set that i must be greater than 0. While that
+// condition runs true, this loop will continuously execute until it returns false. At the end of the loop, we have a final expression, which decrements by 2 after the condition is met. 
