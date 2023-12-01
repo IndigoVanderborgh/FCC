@@ -60,4 +60,4 @@ console.log(i, myArray);
 
 // Slight tangent from our previous exercise. However we are using the same principles of the last two exercises. We are going to change the original code from a while loop to a do..while
 // this differs because since i =10, the original while line won't execute because the condition isn't met. So instead, we need to use a do while loop. We replaced the while with do, and moved the while
-// down with the conditional to the end of the curly braces. 
+// down with the conditional to the end of the curly braces. Its a different way to tackle it by putting the condition at the end. 
