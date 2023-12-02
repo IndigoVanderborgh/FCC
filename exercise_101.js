@@ -39,3 +39,4 @@ function sum(arr, n) {
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
 // Recursion is a new topic, so I will work on this a bit more. I will aslo be using some external sources to understand this topic better.
 //  In fact, I think I'll cover recursion over the weekend. I'll be looking at first this source below.
+// https://medium.com/sessionstack-blog/how-javascript-works-recursion-in-javascript-what-it-is-and-how-it-is-used-eef3d734f20d
