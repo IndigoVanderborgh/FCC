@@ -37,3 +37,5 @@ function sum(arr, n) {
 //     // Only change code above this line
 //   }
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+// Recursion is a new topic, so I will work on this a bit more. I will aslo be using some external sources to understand this topic better.
+
