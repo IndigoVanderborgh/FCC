@@ -107,3 +107,8 @@ function descendNum(startNum) {
 }
 
 descendNum(10); // our initial number 10, runs the program with the desired number. 
+
+// I actually looked around and found some more sites to learn recursion from:
+// https://www.programiz.com/javascript/recursion
+// https://developer.mozilla.org/en-US/docs/Glossary/Recursion
+// https://www.freecodecamp.org/news/recursion-in-javascript/
