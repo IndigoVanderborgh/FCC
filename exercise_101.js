@@ -48,4 +48,14 @@ function sum(arr, n) {
 // }
 // recursive step codes
 // }
-// recursion(); // calls entre function to execute
+// recursion(); // calls entire function to execute
+
+// Another example of a recursive function for calculating factorial numbers:
+// function factorial(num){
+//   if(num === 0){
+//       return 1;
+//   }
+//   return num * factorial(num-1) 
+// }
+
+// console.log(factorial(20));
