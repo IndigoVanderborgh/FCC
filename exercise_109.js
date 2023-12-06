@@ -25,7 +25,7 @@
 // Use the conditional operator in the checkEqual function to check if two numbers are equal or not. The function should return either the string Equal or the string Not Equal.
 
 function checkEqual(a, b) {
-
+    return a === b ? "Equal" : "Not Equal";
 }
 
 checkEqual(1, 2);
@@ -36,4 +36,9 @@ checkEqual(1, 2);
 
 // checkEqual(1, 2);
 
-// ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------v
+// ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+
+// 
+// A function checkEqual is declared, it accepts two parameters in variables a and b.
+// The return statement would return the value of the evaluated ternary expression.
+// The ternary expression checks if a and b are equal or not and returns Equal or Not Equal respectively.
