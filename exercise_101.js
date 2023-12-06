@@ -94,3 +94,16 @@ function sum(arr, n) {
 // recursion()
 
 // Lets move on to some examples starting with a countdown from 10 to 1. The output should be 10, 9, 8 ... 1.
+function descendNum(startNum) {
+  console.log(startNum); // prints starting number, ie 10
+
+  let nextNum = startNum - 1; // declared new variable nextNum equal to (startNum)10 - 1
+
+  if (nextNum > 0) { // condition to check if new number is greater than 0 then we call the function but with the new number, and run it again and again until condition is met.
+      
+      descendNum(nextNum); // runs function again using new number from line 100.
+  }
+
+}
+
+descendNum(10); // our initial number 10, runs the program with the desired number. 
