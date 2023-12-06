@@ -43,8 +43,8 @@ function sum(arr, n) {
 
 // Recursion Notes: Javascript is a feature used in a function that calls itself until its desired results are achieved. Below is an example of syntax/pseudocode of a recursion function:
 // function recursion() {
-  // if () { //desired command
-    // return;
+//    if () { //desired command
+//      return;
 // }
 // recursive step codes
 // }
@@ -59,3 +59,38 @@ function sum(arr, n) {
 // }
 
 // console.log(factorial(20));
+
+// Let's take a look in to the makeup of recursion. There are three basic parts:
+// 1) The Function Declaration
+// 2) The Base Case
+// 3) The Recursive Call command
+
+// 1) The Function Declaration is the the part that declared the intended recursive function. 
+// function recursion() {
+
+//}
+
+// 2) The Base Case is the foundation of the recursive function. It's where the conditions are set, and initial problem are stated and to be solved. It can be a if...else statement.
+    // here is the base case
+    // if (true) {
+    //   return;
+// Once the stated base condition is met, the command wth the return statement is executed.
+
+// 3) The Recursion Call command is responsible for the trigger of the recursive calls. It also tackles the problem you are trying to solve.
+    // here is the recursion function codes
+//     return ... ;
+// }
+
+// Puttng it all together:
+// function recursion() {
+//   // here is the base case
+//    if (true) {
+//        return;
+//    }
+//    // here is the recursion function codes
+//    return ... ;
+// }
+
+// recursion()
+
+// Lets move on to some examples starting with a countdown from 10 to 1. The output should be 10, 9, 8 ... 1.
