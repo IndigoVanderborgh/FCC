@@ -112,3 +112,44 @@ descendNum(10); // our initial number 10, runs the program with the desired numb
 // https://www.programiz.com/javascript/recursion
 // https://developer.mozilla.org/en-US/docs/Glossary/Recursion
 // https://www.freecodecamp.org/news/recursion-in-javascript/
+
+// The third source is pretty good. I'll be using their explanation and examples.
+// They use the same three parts but call it differently in terms:
+
+// The function definition
+// The base condition
+// The recursive call
+
+// The function definition is the start of the recursion:
+
+// function recursiveFunc() {
+  // some code here...
+// } 
+
+// What seperates this from regular functions are the next two definitions.
+// Base condition:
+
+// function recursiveFunc() {
+//   if(base condition) {
+//     // stops recursion if condition is met
+//   }
+//   // else recursion continues
+//   recurse();
+// }
+
+// You need a base condition because without it you will run into infinite recursion, where the function continues to call itself with no end. 
+// example:
+
+// function doSomething(n) {
+//   if(n === 0) {
+//     console.log("TASK COMPLETED!")
+//     return
+//   }
+//   console.log("I'm doing something.")
+//   doSomething(n - 1)
+// }
+// doSomething(3)
+
+// The result? If you pass 3  to the function, it produces the "I'm doing something." 3 times, until condition is met, in which it will then produce "TASK COMPLETED!" once 3 calls have been made
+
+// 
