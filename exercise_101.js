@@ -161,4 +161,37 @@ descendNum(10); // our initial number 10, runs the program with the desired numb
 // doSomething(n-1)
 
 // Note what happens when the function calls itself. A new parameter n-1 is passed to the function. On every iteration of a recursive call, the parameter will differ from that of the previous call.
-// The function will keep calling itself until the new parameter satisfies the base condition 
+// The function will keep calling itself until the new parameter satisfies the base condition.
+
+// Recursion and loops work in similar ways. Every recursive function you write has an alternative solution with a loop
+
+// For example you can create a function to find the factorial of a given number using both recursion and loops.
+
+// function findFactorial(num) {
+//   let factorial = 1
+//   for (let i = num; i > 0; i--) {
+//     factorial *= i
+//   }
+//   return factorial
+// }
+
+// findFactorial(5) // 120
+
+// To find the factorial using a loop, you first initiialize a variable factorial with a value of 1.
+// Then you initiate the loop with the given number num. The loop will continue running until i > 0.
+// For each iteration, you multiply the current value of factorial by i. And you decrease the value of i by 1 until i is not greater than zero. 
+// Finally you return the value of the factorial when the loop finishes running. 
+
+// How to find the factoriqal with recursion.
+// Example: 
+// function findFactorial(num) {
+//   if (num === 0) return 1
+//   let factorial = num * findFactorial(num - 1)
+//   return factorial;
+// }
+
+// findFactorial(5) // 120
+
+// First you need a base condition num === 0
+// You also need the recursive call findFactorial(num-1) to ensure the number keeps reducng at each call when you pass a new parameter of n-1
+// Then you multiply the result with the previous number num * findFactorial(num-1) until the base condition is met. 
