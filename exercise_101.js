@@ -152,4 +152,13 @@ descendNum(10); // our initial number 10, runs the program with the desired numb
 
 // The result? If you pass 3  to the function, it produces the "I'm doing something." 3 times, until condition is met, in which it will then produce "TASK COMPLETED!" once 3 calls have been made
 
-// 
+// The base condition for the doSomething function is n === 0. Anytime the function is called, it first checks if the base case is met.
+// If yes, it prints "TASK COMPLETED!". If not, it continues with the rest of the code in the function. In this case, it will print "I'm doing somethiing." and then
+// call the function again. 
+
+// The recursive call is what handles the function calling itself again. In the doSomething function, the recursive call is the line below
+
+// doSomething(n-1)
+
+// Note what happens when the function calls itself. A new parameter n-1 is passed to the function. On every iteration of a recursive call, the parameter will differ from that of the previous call.
+// The function will keep calling itself until the new parameter satisfies the base condition 
